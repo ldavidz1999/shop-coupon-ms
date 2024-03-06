@@ -14,8 +14,7 @@ GET https://shop-coupon-ms.onrender.com/shop-coupon/api/coupon/stats
 
 Clone the repository
 
-[git clone https://simon_bedoya@bitbucket.org/rappinc/compensation-calculator.git
-](https://github.com/ldavidz1999/shop-coupon-ms.git)
+(https://github.com/ldavidz1999/shop-coupon-ms.git)
 
 Don't forget to install Docker images or services:
 - Mysql
