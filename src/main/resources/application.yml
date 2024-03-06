@@ -2,15 +2,15 @@ server:
   port: 8080
 spring:
   datasource:
-    url: mysql://root:BdEHb22gDF-aCcFeecG6BefddEGd--3B@viaduct.proxy.rlwy.net:59204/railway
+    url: jdbc:mysql://roundhouse.proxy.rlwy.net:58823/railway
     username: root
-    password: BdEHb22gDF-aCcFeecG6BefddEGd--3B
+    password: aGAbFDAbcA4GDeB6Dc1CbAa5a6ba4ABD
     driver-class-name: com.mysql.cj.jdbc.Driver
   flyway:
     baseline-on-migrate: true
     locations: classpath:db/migration
     user: root
-    password: BdEHb22gDF-aCcFeecG6BefddEGd--3B
+    password: aGAbFDAbcA4GDeB6Dc1CbAa5a6ba4ABD
     enabled: true
   jpa:
     database-platform: org.hibernate.dialect.MySQL8Dialect
