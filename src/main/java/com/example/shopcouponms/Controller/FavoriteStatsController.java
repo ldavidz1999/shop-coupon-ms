@@ -7,7 +7,6 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
-import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -19,7 +18,6 @@ import java.util.List;
 public class FavoriteStatsController {
     @Autowired
     private FavoriteStatService favoriteStatService;
-    @CrossOrigin("https://shop-coupon-ms.railway.internal/shop-coupon/api/coupon")
     @GetMapping("/stats")
     public ResponseEntity<List<FavoriteStats>> getFavoriteStats(){
         List<FavoriteStats> response = favoriteStatService.getFavoriteStatsOverall();
